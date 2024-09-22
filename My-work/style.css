@@ -1,0 +1,576 @@
+:root {
+    --border: 2px solid red;
+    --black: black;
+    --white: white;
+    --gray: gray;
+    --blue-color: rgb(31, 31, 241);
+    --purple-color: rgb(52, 60, 223);
+    --font: "Anek Telugu";
+    --h1-size: 95px;
+    --h2-size: 40px;
+    --h3-size: 40px;
+    --h4-size: 32px;
+    --h5-size: 28px;
+    --h6size: 22px;
+    --letter-spacing: 2px;
+    --line-height: 40px;
+    --text-decoration: none;
+    --link-color: rgb(8, 8, 85);
+    --purple-1: #6962f7;
+    --purple-2: #7000ff;
+
+}
+
+.clicks a:hover {
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.left-btn a:hover {
+    opacity: 0.7;
+
+}
+
+button:hover img {
+    transform: translatex(5px);
+    transition: all 0.25s ease-in-out;
+}
+
+.left-btn a:hover img {
+    transform: translatex(5px);
+    transition: all 0.25s ease-in-out;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Anek Telugu";
+
+}
+
+
+
+
+.section1 {
+    width: 75%;
+    margin: 0 auto;
+    height: 100vh;
+
+
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 25px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 20px 0;
+
+}
+
+.nav_bar li a {
+    text-decoration: none;
+    color: var(--purple-2);
+
+}
+
+.nav_bar ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 700px;
+    font-weight: bold;
+
+
+}
+
+.nav_bar img {
+    background-color: red;
+    width: 8rem;
+    height: 50px;
+
+
+}
+
+.sign-btn {
+    height: 60px;
+    width: 9rem;
+    font-size: 25px;
+    background: var(--white);
+    border-color: var(--purple-2);
+    color: var(--purple-2);
+    border-radius: 20px;
+    cursor: pointer;
+
+
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14rem;
+
+}
+
+.left-col {
+
+    width: 40%;
+
+}
+
+.left-col h1 {
+    font-size: 70px;
+    line-height: 80px;
+    padding-top: 100px;
+}
+
+.left-col p {
+    font-size: 20px;
+}
+
+.left-btn {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Start-now {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 170px;
+    margin-right: 35px;
+
+}
+
+.Start-now img {
+    width: 40px;
+}
+
+
+.left-btn a {
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    color: var(--purple-2);
+
+
+
+
+
+}
+
+.sales-img {
+
+    width: 40px;
+    margin-top: -20px;
+    border: 2px solid transparent;
+
+
+
+
+
+}
+
+
+
+
+.right-col img {
+    height: 100%;
+    width: 450px;
+
+
+}
+
+.company-list img {
+    width: 250px;
+    height: 100px;
+    place-self: center;
+}
+
+.company-list {
+    width: 90%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-areas:
+        "salesforce amazon lyft zoom"
+        "google shopify instacart slack ";
+
+    margin-top: -1rem;
+    margin-bottom: 15rem;
+
+}
+
+/* --------------------------     page 2 ----------------------- */
+
+/*  -------------------------      left and right columns ------- */
+
+
+
+
+.Unified {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Unified p,
+h2 {
+    width: 50%;
+}
+
+.pages {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    height: 20rem;
+}
+
+.left_col,
+.right_col {
+    width: 50%;
+
+}
+
+
+
+
+.right_col p,
+.left_col p {
+    margin: 2rem 0;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+.Unified p {
+    color: var(--purple-2);
+    letter-spacing: var(--letter-spacing);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Unified h2 {
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+.para-hover {
+    color: var(--purple-2);
+    font-weight: bolder;
+}
+
+.para-hover:hover {
+    color: var(--black);
+    cursor: pointer;
+}
+
+
+/*       grid section   */
+.grid-container {
+    width: 75%;
+    margin: 5% auto;
+}
+
+
+
+.grid-section {
+    width: 100%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-areas:
+        "card invoice invoice"
+        "phone invoice invoice"
+        "phone stock stock"
+    ;
+    grid-gap: 50px;
+
+}
+
+#credit-card,
+#slack-invoice,
+#dash {
+    box-shadow: 1px 2px 60px rgb(188, 186, 186);
+    border-radius: 2rem;
+}
+
+
+#credit-card {
+    grid-area: card;
+    width: 100%;
+
+
+}
+
+#phone {
+    grid-area: phone;
+    width: 100%;
+
+
+}
+
+#slack-invoice {
+    grid-area: invoice;
+    width: 100%;
+
+
+}
+
+#dash {
+    grid-area: stock;
+    width: 100%;
+
+
+}
+
+
+/*            Section 3    */
+
+/* ---------------------     Common Elements ------------- */
+.about-section {
+    color: var(--purple-2);
+    letter-spacing: var(--letter-spacing);
+    margin: 0;
+
+}
+
+.about-section-h2 {
+    margin: 0;
+    width: 100%;
+    font-size: 3.5rem;
+
+
+}
+
+.about-section-p {
+    font-size: 1rem;
+    letter-spacing: var(--letter-spacing);
+    font-weight: 700;
+    padding-bottom: 3%;
+
+}
+
+.Sales {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--purple-2);
+
+}
+
+.Sales:hover {
+    border-bottom: 2px solid var(--purple-2);
+    opacity: 0.7;
+}
+
+
+/* --------------------- Common Elements END ------------   */
+
+.section3 {
+    width: 75%;
+    margin: 15% auto;
+    height: 100%;
+}
+
+.tools-part1 {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.tools-part1-tool1 {
+    width: 50%;
+}
+
+.tools-part2-tool2 {
+    width: 50%;
+}
+
+.part1_section3 {
+    width: 100%;
+    display: flex;
+    height: 22rem;
+    margin-bottom: 3rem;
+
+
+
+}
+
+.part-1 {
+    width: 100%;
+
+
+}
+
+.part-2 {
+    width: 100%;
+
+}
+
+.part-2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 1px 2px 60px rgb(136, 136, 136);
+
+}
+
+
+/*        tools   */
+.part2-section3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.tools-part1 {
+    width: 50%;
+    display: flex;
+    height: 22rem;
+
+
+
+}
+
+.tools-part2 {
+    width: 50%;
+    height: 22rem;
+
+
+}
+
+.tools-part2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+/*                section 4       */
+.section4 {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.part2_section4 {
+    display: grid;
+    grid-template-areas:
+        "Efficient Improving Tried Crazy";
+    grid-gap: 20px;
+
+}
+
+.s4-about-section {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.s4-about-section-h2 {
+    padding-bottom: 2%;
+}
+
+/*             section 5       */
+
+/* .section5 {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.part1_section5 {
+    display: grid;
+    grid-template-areas:
+        " a b b";
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+
+}
+
+.col1-section5 {
+    grid-area: a;
+    border: 2px solid red;
+    width: 50%;
+}
+
+.col2-section5 {
+    grid-area: b;
+    width: 50%;
+    border: 2px solid rgb(6, 4, 4);
+
+} */
+.number-section {
+    width: 100%;
+
+}
+
+.number-section::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(var(--purple-2), red);
+    background: linear-gradient(207deg, rgba(2, 0, 36, 1) 0%, var(--purple-2) 46%, rgb(255, 38, 0) 100%);
+    position: absolute;
+    z-index: -1;
+    transform: skewY(-5deg);
+
+
+}
+
+.section5 {
+    width: 75%;
+    margin: 4% auto 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.part1_section5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+.col2-section5 img {
+    width: 100%;
+
+}
+
+.numbers {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        " a b c d";
+    gap: 20px;
+}
